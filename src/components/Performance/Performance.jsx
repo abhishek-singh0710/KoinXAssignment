@@ -1,5 +1,5 @@
-import React from "react";
-import "./Performance.css";
+// import React from "react";
+import "./performance.css";
 
 const Performance = () => {
   return (

@@ -1,4 +1,3 @@
-import React from 'react'
 import "./getStartedFreeBox.css";
 
 const GetStartedFreeBox = () => {
