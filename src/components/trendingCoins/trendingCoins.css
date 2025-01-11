@@ -1,0 +1,132 @@
+.trending-coins {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    color: black;
+    width: 427px;
+    height: 225px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    .upper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        gap: 153px;
+
+        width: 379px;
+        height: 29px;
+
+        font-weight: 600;
+        font-size: 24px;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+
+    }
+
+    .lower {
+        /* Frame 27474 */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+
+        width: 379px;
+        height: 124px;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+
+        .card {
+            /* Frame 27470 */
+
+            /* Auto layout */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px;
+            gap: 12px;
+
+            width: 379px;
+            height: 28px;
+
+
+            /* Inside auto layout */
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+
+            .coin {
+                /* Frame 27475 */
+
+                /* Auto layout */
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 6px;
+
+                margin: 0 auto;
+                width: 148px;
+                height: 24px;
+
+
+                /* Inside auto layout */
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+
+                    img {
+                        border-radius: 50%;
+                    }
+
+            }
+
+            .percentage {
+                /* Frame 27495 */
+
+                /* Auto layout */
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 8px;
+                gap: 8px;
+
+                margin: 0 auto;
+                width: 84px;
+                height: 28px;
+
+                background-color: #EBF9F4;
+                border-radius: 4px;
+
+                /* Inside auto layout */
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+
+            }
+
+        }
+
+    }
+}

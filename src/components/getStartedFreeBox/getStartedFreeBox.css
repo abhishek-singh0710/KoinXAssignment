@@ -1,0 +1,61 @@
+.free-box{
+
+  
+
+    width: 426px;
+    height: 515px;
+    border-radius: 8px;
+    padding: 31px 16px;
+    gap:30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .text{
+        height: 182px;
+        width: 327px;
+        display: flex;
+        color: #FFFFFF;
+        flex-direction: column;
+        align-items: center;
+        gap:14px;
+        h2{ 
+            width: 268px;
+            height: 80px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 40px;
+          
+        }
+        p{  
+            color: #F2F2F2;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+    background-color: #0052FE;
+    img{
+        width: 178.66px;
+        height: 166.22px;
+    }
+    button{
+        width: 237px;
+        height: 48px;
+        padding: 8px 24px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        gap:8px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #0F1629;
+        border: none;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+}

@@ -1,0 +1,1573 @@
+.outerMain {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 100vw;
+    height: 4399px;
+    left: 56px;
+    top: 132px;
+   
+}
+@media screen and (max-width:768px){
+.outerMain{
+    flex-direction: column;
+}
+}
+.leftMain {
+    /* Frame 1000004802 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 60vw;
+    /* height: 2287px; */
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+    /* border: 2px solid green; */
+
+}
+
+.chart {
+    /* div */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 20px;
+    gap: 20px;
+
+    width: 60vw;
+    height: 711px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    object-fit: contain;
+    /* border: 2px solid red; */
+
+}
+.chartImage {
+    /* Frame 1000004787 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 877px;
+    height: 654px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.buttonsList {
+    /* Frame 26860 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 881px;
+    height: 48px;
+
+    /* [Day]/Gray/04 */
+    border-bottom: 1px solid #D3E0E6;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* border: 2px solid violet; */
+
+}
+
+.innerButtons {
+    /* Frame 26846 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+
+    width: 73px;
+    height: 48px;
+
+    border-bottom: 3px solid #0052FE;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+.performance {
+    /* div */
+
+    /* div */
+    /* div */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+
+    width: 881px;
+    height: 632px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    /* border: 2px solid grey; */
+
+
+}
+
+.innerPerformance {
+    /* Frame 1000004787 */
+
+    /* Frame 1000004787 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 81px;
+
+    width: 831px;
+    height: 859px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* border: 2px solid brown; */
+
+}
+
+.performanceTitle {
+    /* div */
+
+    width: 916px;
+    height: 28.8px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* border: 2px solid yellow; */
+    
+
+}
+
+.innerPerformanceTitle {
+
+    /* position: absolute; */
+/* Performance */
+
+    /* position: absolute; */
+    width: 151px;
+    height: 29px;
+    left: 0px;
+    top: calc(50% - 29px/2 - 0.9px);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height, or 120% */
+    display: flex;
+    align-items: center;
+
+    /* Gray/1 */
+    color: #0F1629;
+
+
+
+}
+
+.lowHigh {
+    /* Frame 1116601918 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 830px;
+    height: 172px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.sentiment {
+    /* div */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+
+    width: 881px;
+    height: 556px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    /* border: 2px solid red; */
+
+}
+
+.innerSentiment {
+    /* div */
+
+    width: 831px;
+    height: 1305px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* border: 2px solid yellow; */
+
+}
+
+.sentimentTitle {
+    /* div */
+
+    width: 916px;
+    height: 28.8px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+    /* border: 2px solid black; */
+
+}
+
+.sentimentTitleWord {
+    /* Sentiment */
+
+    /* position: absolute; */
+    width: 120px;
+    height: 29px;
+    left: 0px;
+    top: calc(50% - 29px/2 - 0.9px);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height, or 120% */
+    display: flex;
+    align-items: center;
+
+    /* Gray/1 */
+    color: #0F1629;
+
+}
+
+.keyEvents {
+    /* div.valign-wrapper */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 526.96px 0px 0px;
+    gap: 0.04px;
+
+    width: 710px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+
+}
+
+.keyEventsTitle {
+    /* Heading 2 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 101px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.keyEventsImage {
+    /* SVG:margin */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 0px 6px;
+
+    width: 26px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.sentimentsContent {
+    /* List */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+
+    width: 100%;
+    height: 204px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+
+}
+
+.sentimentsContentLeft {
+    /* Item */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 18px 38px;
+
+    width: 50%;
+    min-width: 50%;
+    height: 204px;
+
+    /* www_indstocks_com_stocks_zomato-ltd-share-price_1440x810_default/Solitude */
+    background: #E8F4FD;
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    /* border: 2px solid green; */
+
+}
+
+.sentimentsData {
+    /* div.flex */
+
+    width: 420px;
+    height: 148px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.sentimentsContentRight {
+    /* Item */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 18px 38px;
+
+    width: 50%;
+    min-width: 50%;
+    height: 204px;
+
+    background: #EBF9F4;
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    /* border: 2px solid violet; */
+
+}
+
+.analystEstimates {
+    /* div.h2d-82b36621 */
+
+    width: 710px;
+    height: 186px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* border: 2px solid blue; */
+
+}
+
+.analystEstimatesTitle {
+    /* div.valign-wrapper */
+/* div.valign-wrapper */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 526.96px 0px 0px;
+    gap: 0.04px;
+
+    /* position: absolute; */
+    height: 20px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+}
+
+.analystTitle {
+    /* Heading 2 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 165px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.analystChart {
+    /* div.exr42mainDiv */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    isolation: isolate;
+
+    /* position: absolute; */
+    height: 120px;
+    left: 0px;
+    right: 0px;
+    top: 44px;
+
+}
+
+.analystPercentage {
+    /* div.exr42buyDiv:margin */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 40px 0px 0px;
+
+    width: 156.86px;
+    height: 120px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+
+}
+
+.buyHoldSell {
+    /* div.width100 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width: 553.14px;
+    height: 114px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    z-index: 0;
+    /* border: 2px solid green; */
+
+}
+
+.buyHoldSellTabs {
+    /* div.row */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 101.16px 8px 8px;
+
+    width: 553.14px;
+    height: 38px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.buyTitle {
+    /* div.left-align */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 26.71px 0px 0px;
+
+    width: 53.71px;
+    height: 22px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.linearBarImage {
+    /* div.exr710LinearBar */
+
+    width: 349.14px;
+    height: 8px;
+
+    /* groww_in_stocks_zomato-ltd_1440x810_default/Persian Green */
+    background: #00B386;
+    border-radius: 2px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.holdBarImage {
+    /* div.exr710LinearBar */
+
+    width: 33px;
+    height: 8px;
+
+    /* groww_in_stocks_zomato-ltd_1440x810_default/French Gray */
+    background: #C7C8CE;
+    border-radius: 2px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.sellBarImage {
+    /* div.exr710LinearBar */
+
+    width: 66.5px;
+    height: 8px;
+
+    /* Absolute/Red */
+    background: #F7324C;
+    border-radius: 2px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.aboutBitcoin {
+    /* div */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 24px;
+
+    width: 881px;
+    height: 995px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    /* border: 1px solid green; */
+
+}
+
+.aboutBitcoinInside {
+    /* Frame 1000004787 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 81px;
+
+    width: 100%;
+    height: 308.23px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* border: 2px solid red; */
+
+}
+
+.aboutBitcoinTitle {
+    /* div */
+
+    /* position: absolute; */
+    width: 100%;
+    height: 28.8px;
+    left: 0px;
+    top: 0px;
+    /* border: 2px solid red; */
+
+
+    .name {
+        /* About Bitcoin */
+
+        /* position: absolute; */
+        width: 158px;
+        height: 29px;
+        left: 0px;
+        top: calc(50% - 29px/2 - 0.9px);
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height, or 120% */
+        display: flex;
+        align-items: center;
+
+        /* Gray/1 */
+        color: #0F1629;
+
+    }
+
+}
+
+.bitcoinDetails {
+    /* Frame 1000004804 */
+
+    /* Frame 1000004804 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+
+    /* position: absolute; */
+    width: 830px;
+    height: 935px;
+    left: 0px;
+    top: 53px;
+    /* border: 2px solid black; */
+
+}
+
+.whatIsBitcoin {
+    /* Frame 1000004803 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 830px;
+    height: 110px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* border: 2px solid violet; */
+
+    .question {
+        /* What is Bitcoin? */
+
+            width: 143px;
+            height: 22px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            /* identical to box height, or 120% */
+            display: flex;
+            align-items: center;
+
+            color: #0B1426;
+
+
+            /* Inside auto layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+    }
+
+    .details {
+        /* Bitcoin’s price today is US$16,951.82, with a 24-hour trading volume of $19.14 B. BTC is +0.36% in the last 24 hours. It is currently -7.70% from its 7-day all-time high of $18,366.66, and 3.40% from its 7-day all-time low of $16,394.75. BTC has a circulating supply of 19.24 M BTC and a max supply of 21 M BTC. */
+
+            width: 830px;
+            height: 78px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 160%;
+            /* or 26px */
+
+            /* Gray/2 */
+            color: #3E424A;
+
+
+            /* Inside auto layout */
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+
+    }
+
+}
+
+.moreDetails {
+    /* Frame 1000004804 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 830px;
+    height: 396px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    /* border: 2px solid red; */
+
+    .heading {
+        /* Lorem ipsum dolor sit amet */
+
+        width: 239px;
+        height: 22px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height, or 120% */
+        display: flex;
+        align-items: center;
+
+        color: #0B1426;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+    }
+
+    .lowerDetails {
+        /* Lorem ipsum dolor sit amet consectetur. Aliquam placerat sit lobortis tristique pharetra. Diam id et lectus urna et tellus aliquam dictum at. Viverra diam suspendisse enim facilisi diam ut sed. Quam scelerisque fermentum sapien morbi sodales odio sed rhoncus. Ultricies urna volutpat pendisse enim facilisi diam ut sed. Quam scelerisque fermentum sapien morbi sodales odio sed rhoncus. Diam praesent massa dapibus magna aliquam a dictumst volutpat. Egestas vitae pellentesque auctor amet. Nunc sagittis libero adipiscing cursus felis pellentesque interdum. Odio cursus phasellus velit in senectus enim dui. Turpis tristique placerat interdum sed volutpat. Id imperdiet magna eget eros donec cursus nunc. Mauris faucibus diam mi nunc praesent massa turpis a. Integer dignissim augue viverra nulla et quis lobortis phasellus. Integer pellentesque enim convallis ultricies at. Fermentum hendrerit imperdiet nulla viverra faucibus. Sit aliquam massa vel convallis duis ac. Mi adipiscing semper scelerisque porttitor pulvinar nunc risus. Fermentum potenti iaculis lacinia congue ipsum fames amet dui. Purus ultrices tincidunt volutpat in eget. Ullamcorper dui */
+
+            width: 830px;
+            height: 364px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 160%;
+            /* or 26px */
+
+            /* Gray/2 */
+            color: #3E424A;
+
+
+            /* Inside auto layout */
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+
+    }
+
+}
+
+.alreadyHoldingBitcoin {
+    /* Frame 1000004785 */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+
+        width: 807px;
+        height: 206px;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+        /* border: 2px solid green; */
+
+        .heading {
+            /* Frame 1000004771 */
+
+                /* Auto layout */
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 16px;
+
+                width: 388px;
+                height: 47px;
+
+
+                /* Inside auto layout */
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+
+                .headingTitle {
+                    /* Already Holding Bitcoin? */
+
+                    width: 464px;
+                    height: 47px;
+
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 29px;
+                    /* or 120% */
+                    display: flex;
+                    align-items: center;
+
+                    /* Gray/1 */
+                    color: #0F1629;
+
+
+                    /* Inside auto layout */
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+
+                }
+        }
+
+        .holdingImages {
+            /* Frame 1000004784 */
+
+                /* Auto layout */
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 16px;
+
+                width: 807px;
+                height: 151px;
+
+
+                /* Inside auto layout */
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+
+                .imageLeft {
+                    /* Frame 27127 */
+
+                        width: 403px;
+                        height: 151px;
+
+
+                        /* Inside auto layout */
+                        flex: none;
+                        order: 0;
+                        flex-grow: 0;
+
+                }
+        }
+
+        .holdingDetails {
+            /* Frame 1000004805 */
+
+                /* Auto layout */
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 10px;
+
+                width: 830px;
+                height: 130px;
+
+
+                /* Inside auto layout */
+                flex: none;
+                order: 6;
+                flex-grow: 0;
+                /* border: 2px solid red; */
+
+                .details {
+                    /* Fermentum hendrerit imperdiet nulla viverra faucibus. Sit aliquam massa vel convallis duis ac. Mi adipiscing semper scelerisque porttitor pulvinar nunc risus. Fermentum potenti iaculis lacinia congue ipsum fames amet dui. Purus ultrices tincidunt volutpat in eget. Ullamcorper dui */
+
+                        width: 830px;
+                        height: 130px;
+
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 160%;
+                        /* or 26px */
+
+                        /* Gray/2 */
+                        color: #3E424A;
+
+
+                        /* Inside auto layout */
+                        flex: none;
+                        order: 0;
+                        flex-grow: 0;
+
+                }
+
+        }
+
+}
+
+.tokenomics {
+    /* div */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 24px;
+
+        width: 881px;
+        height: 539px;
+
+        background: #FFFFFF;
+        border-radius: 8px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 5;
+        flex-grow: 0;
+        /* border: 2px solid red; */
+
+        .heading {
+            /* div */
+
+            width: 916px;
+            height: 28.8px;
+
+
+            /* Inside auto layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            .headingLetters {
+                /* Tokenomics */
+
+                    /* position: absolute; */
+                    width: 140px;
+                    height: 29px;
+                    left: 0px;
+                    top: calc(50% - 29px/2 - 0.9px);
+
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 29px;
+                    /* identical to box height, or 120% */
+                    display: flex;
+                    align-items: center;
+
+                    /* Gray/1 */
+                    color: #0F1629;
+
+
+            }
+        }
+
+        .tokenomicsDetails {
+            /* div.h2d-cf4c6ced */
+
+                /* Auto layout */
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+
+                width: 833px;
+                height: 402px;
+                min-height: 227px;
+
+
+                /* Inside auto layout */
+                flex: none;
+                order: 1;
+                align-self: stretch;
+                flex-grow: 0;
+                /* border: 2px solid green; */
+
+                .initialDistribution {
+                    /* div.tokenomics-chart-container */
+
+                        /* Auto layout */
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 0px;
+
+                        width: 810px;
+                        height: 246px;
+
+
+                        /* Inside auto layout */
+                        flex: none;
+                        order: 0;
+                        flex-grow: 0;
+                        /* border: 2px solid violet; */
+
+                        .headingContainer {
+                            /* div.tokenomics-title */
+
+                                /* Auto layout */
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                                padding: 0px 531px 0px 0px;
+
+                                width: 810px;
+                                height: 36px;
+
+
+                                /* Inside auto layout */
+                                flex: none;
+                                order: 0;
+                                align-self: stretch;
+                                flex-grow: 0;
+                                /* border: 2px solid black; */
+
+                                .heading {
+                                    /* Initial Distribution */
+
+                                            width: 171px;
+                                            max-width: 810px;
+                                            height: 36px;
+
+                                            font-family: 'Inter';
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 20px;
+                                            line-height: 36px;
+                                            /* identical to box height, or 180% */
+                                            display: flex;
+                                            align-items: center;
+
+                                            /* tokeninsight_com_en_coins_ethereum_tokenomics_1440x810_default/Cod Gray */
+                                            color: #1D1D1D;
+
+
+                                            /* Inside auto layout */
+                                            flex: none;
+                                            order: 0;
+                                            flex-grow: 0;
+
+                                }
+                        }
+
+                    .graph {
+                        /* div.tokenomics-wrapper */
+
+                            /* Auto layout */
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            padding: 0px 354px 0px 0px;
+                            gap: 24px;
+                            isolation: isolate;
+
+                            width: 810px;
+                            height: 210px;
+
+
+                            /* Inside auto layout */
+                            flex: none;
+                            order: 1;
+                            align-self: stretch;
+                            flex-grow: 0;
+                            /* border: 2px solid blue; */
+
+                        .pieChart {
+                            /* Frame 1116601936 */
+
+                                width: 179px;
+                                height: 179px;
+
+
+                                /* Inside auto layout */
+                                flex: none;
+                                order: 0;
+                                flex-grow: 0;
+                                z-index: 1;
+
+                        }
+
+                        .legend {
+                            /* Frame 1116601935 */
+
+                                /* Auto layout */
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                padding: 0px;
+                                gap: 24px;
+
+                                width: 216px;
+                                height: 111px;
+
+
+                                /* Inside auto layout */
+                                flex: none;
+                                order: 1;
+                                flex-grow: 0;
+                                z-index: 0;
+                                /* border: 2px solid red; */
+
+                            .legend1 {
+                                /* div.tokenomics-label */
+
+                                    /* Auto layout */
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+                                    padding: 0px;
+
+                                    width: 216px;
+                                    height: 20px;
+
+
+                                    /* Inside auto layout */
+                                    flex: none;
+                                    order: 0;
+                                    flex-grow: 0;
+                                
+                                .dot1Container{
+                                    /* span.circle:margin */
+
+                                        /* Auto layout */
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: flex-start;
+                                        padding: 0px 9px 0px 0px;
+
+                                        width: 21px;
+                                        height: 20px;
+
+
+                                        /* Inside auto layout */
+                                        flex: none;
+                                        order: 0;
+                                        align-self: stretch;
+                                        flex-grow: 0;
+
+
+                                        .dot1 {
+                                            /* span.circle:margin */
+
+                                            /* span.circle */
+
+                                                width: 12px;
+                                                height: 12px;
+
+                                                background: #0082FF;
+                                                border-radius: 6px;
+
+                                                /* Inside auto layout */
+                                                flex: none;
+                                                order: 0;
+                                                align-self: stretch;
+                                                flex-grow: 0;
+                                        }
+
+                                        .dot2 {
+                                            /* span.circle */
+
+                                                    width: 12px;
+                                                    height: 12px;
+
+                                                    background: #FAA002;
+                                                    border-radius: 6px;
+
+                                                    /* Inside auto layout */
+                                                    flex: none;
+                                                    order: 0;
+                                                    align-self: stretch;
+                                                    flex-grow: 0;
+
+                                        }
+                                }
+                            }
+
+                            .legend2 {
+                                /* div.tokenomics-label */
+
+                                    /* Auto layout */
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+                                    padding: 0px;
+
+                                    width: 216px;
+                                    height: 20px;
+
+
+                                    /* Inside auto layout */
+                                    flex: none;
+                                    order: 0;
+                                    flex-grow: 0;
+                                
+                                .dot1Container{
+                                    /* span.circle:margin */
+
+                                        /* Auto layout */
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: flex-start;
+                                        padding: 0px 9px 0px 0px;
+
+                                        width: 21px;
+                                        height: 20px;
+
+
+                                        /* Inside auto layout */
+                                        flex: none;
+                                        order: 0;
+                                        align-self: stretch;
+                                        flex-grow: 0;
+
+
+                                        .dot1 {
+                                            /* span.circle:margin */
+
+                                            /* span.circle */
+
+                                                width: 12px;
+                                                height: 12px;
+
+                                                background: #0082FF;
+                                                border-radius: 6px;
+
+                                                /* Inside auto layout */
+                                                flex: none;
+                                                order: 0;
+                                                align-self: stretch;
+                                                flex-grow: 0;
+                                        }
+
+                                        .dot2 {
+                                            /* span.circle */
+
+                                                    width: 12px;
+                                                    height: 12px;
+
+                                                    background: #FAA002;
+                                                    border-radius: 6px;
+
+                                                    /* Inside auto layout */
+                                                    flex: none;
+                                                    order: 0;
+                                                    align-self: stretch;
+                                                    flex-grow: 0;
+
+                                        }
+                                }
+                            }
+                        }
+                    }
+
+                    .details {
+                        /* Lorem ipsum dolor sit amet consectetur. Cras aliquet tristique ornare vestibulum nunc dignissim vel consequat. Leo etiam nascetur bibendum amet enim sit eget leo amet. At metus orci augue fusce eleifend lectus eu fusce adipiscing. Volutpat ultrices nibh sodales massa habitasse urna felis augue. Gravida aliquam fermentum augue eu. Imperdiet bibendum amet aliquam donec. Eget justo dui metus odio rutrum. Vel ipsum eget in at curabitur sem posuere facilisis vitae. Sed lorem sit mauris id eget arcu ut. Vulputate ipsum aliquet odio nisi eu ac risus. */
+
+                            width: 833px;
+                            height: 156px;
+
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 160%;
+                            /* or 26px */
+
+                            /* Gray/2 */
+                            color: #3E424A;
+
+
+                            /* Inside auto layout */
+                            flex: none;
+                            order: 1;
+                            flex-grow: 0;
+                            /* border: 2px solid blue; */
+
+                            .detailsText {
+                                /* Lorem ipsum dolor sit amet consectetur. Cras aliquet tristique ornare vestibulum nunc dignissim vel consequat. Leo etiam nascetur bibendum amet enim sit eget leo amet. At metus orci augue fusce eleifend lectus eu fusce adipiscing. Volutpat ultrices nibh sodales massa habitasse urna felis augue. Gravida aliquam fermentum augue eu. Imperdiet bibendum amet aliquam donec. Eget justo dui metus odio rutrum. Vel ipsum eget in at curabitur sem posuere facilisis vitae. Sed lorem sit mauris id eget arcu ut. Vulputate ipsum aliquet odio nisi eu ac risus. */
+
+                                    width: 833px;
+                                    height: 156px;
+
+                                    font-family: 'Inter';
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 160%;
+                                    /* or 26px */
+
+                                    /* Gray/2 */
+                                    color: #3E424A;
+
+
+                                    /* Inside auto layout */
+                                    flex: none;
+                                    order: 1;
+                                    flex-grow: 0;
+
+                            }
+                    }
+                }
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rightMain {
+    /* div */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 820.516px;
+    gap: 20px;
+
+    width: 427px;
+    height: 1923px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* border: 2px solid black; */
+
+}
+
+.rightMainImage {
+
+
+    /* Frame 1000004851 */
+
+    /* Auto layout */
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 426px;
+    height: 515px;
+
+    border-radius: 16px; */
+
+    /* Inside auto layout */
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+
+}
+
+.trendingCoins {
+    /* Realised Profit/Loss */
+
+    /* Auto layout */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+
+    width: 427px;
+    height: 225px;
+
+    background: #FFFFFF;
+    border-radius: 8px; */
+
+    /* Inside auto layout */
+    /* flex: none;
+    order: 1;
+    flex-grow: 0; */
+    /* border: 2px solid blue; */
+
+}
